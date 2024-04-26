@@ -10,7 +10,7 @@ function popUpRandomMole() {
     return;
   }
 
-  const moleHeads = document.querySelectorAll('.wgs__mole-head');
+  const moleHeads = document.querySelectorAll('.wgs-head');
 
   if (moleHeads.length === 0) {
     return;
@@ -59,3 +59,4 @@ window.addEventListener('DOMContentLoaded', () => {
     });
   }
 });
+

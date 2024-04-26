@@ -1,4 +1,37 @@
 /* Your code here */
+.wgs {
+  height: 241px; /* 482px / 2 */
+  width: 620px; /* 640px / 2 */
+  position: relative;
+  top: 131px; /* 262px / 2 */
+  display: inline-block;
+  overflow: hidden;
+}
+
+.wgs-head {
+  height: 178px; /* 356px / 2 */
+  width: 188px; /* 376px / 2 */
+  position: absolute;
+  left: 54.5px; /* 109px / 2 */
+  transition: margin-top 0.25s;
+}
+
+.wgs-hill {
+  height: 110px; /* 220px / 2 */
+  width: 320px; /* 640px / 2 */
+  position: absolute;
+  top: 131px; /* 262px / 2 */
+}
+
+.wgs__mole-head--hidden {
+  margin-top: 50%; /* 100% / 2 */
+}
+
+.pf {
+  display: grid;
+  grid-template-rows: auto auto; /* Two rows */
+  grid-template-columns: repeat(4, 1fr); /* Four columns */
+}
 
 
 
