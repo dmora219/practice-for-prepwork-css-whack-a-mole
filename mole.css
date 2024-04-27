@@ -1,4 +1,7 @@
 /* Your code here */
+body {
+  zoom: 0.75;
+}
 .wgs {
   height: 241px; /* 482px / 2 */
   width: 620px; /* 640px / 2 */
@@ -36,7 +39,7 @@
 
 
 /* UNCOMMENT THE CODE BELOW WHEN DIRECTED */
-/* .sb {
+.sb {
   background-color: cornflowerblue;
   border-bottom: 1px solid #645DED;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
@@ -47,14 +50,14 @@
   padding: 10px 20px;
 } */
 
-/* .sb__mole-counter {
+.sb__mole-counter {
   flex: 1 0 0;
   text-align: right;
-} */
+}
 
-/* .sb__score-holder {
+.sb__score-holder {
   flex: 1 0 0;
-} */
+}
 
 /* .sb__game-over--hidden {
   display: none;
